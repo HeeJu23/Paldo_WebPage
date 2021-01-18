@@ -14,7 +14,7 @@
 + JavaScript
 
 ## 세부 페이지 소개
-![region](https://user-images.githubusercontent.com/77602511/104899415-28513100-59be-11eb-8585-2cd1d7846344.png)
+![region](https://user-images.githubusercontent.com/77602511/104899543-533b8500-59be-11eb-8828-db42c69f4f9e.png)
 
 
 ## 사용법
