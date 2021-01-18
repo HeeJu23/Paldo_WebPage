@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+
+
+<style>
+body{
+background-image: url(media/backgroundimg.png);
+background-size: 100% 100%;
+}
+.header{
+width:100%; height:10%;
+}
+.nav{
+width:15%;height:70%;float:left;
+}
+.section{
+width:65%;height:70%;margin-top:20px;float:left;background:white;
+border-radius : 20px;
+padding: 20px;
+}
+.aside{
+	width:15%;height:70%;margin-top:20px; margin-left:20px; float:left;background:white;
+	border-radius : 20px;
+}
+img{
+padding:10px;
+}
+footer{
+width:100%; hegiht : 15%; clear : both; text-align : center; 
+}
+#logo{
+text-align: center;
+padding : 20px;
+}
+
+button{
+  background:#5f99f5;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:0.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:#fff;
+  color:#5f99f5;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #5f99f5;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+</style>
+</head>
+<script>
+ var  windowObj;
+function login(){
+	
+	if(!window.sessionStorage)
+	{
+		alert("세션스토리지를 지원하지 않습니다.");
+		return ;
+	}
+	
+	//id="eng"로부터 string 가져오기
+	var id = document.getElementById("id").value;
+	
+	// 입력된 것이 없으면 리턴
+	if(id == null)
+		return;
+	
+	id = id.trim(); // 앞 뒤 빈칸 삭제
+	//영어 단어를 가지고 한글 단어를 가져옴
+	
+	var pw_check = localStorage.getItem(id);
+	
+	//리턴 값이 없다면 
+	//alert창 띄우기
+	//return
+	if(pw_check == null){
+		alert(id+"는 없는 아이디입니다.");
+		var id = document.getElementById("id").value = "";
+		var pw = document.getElementById("pw").value = "";
+		return;
+	}
+	
+	else{
+		
+		var pw = document.getElementById("pw").value;
+		
+		if(pw != pw_check){
+			alert("패스워드가 일치하지 않습니다.");
+			var pw= document.getElementById("pw").value = "";
+			return;
+		}
+		else{
+		
+	        windowObj = window.open("main_login.html?"+id,"","");
+	 
+	        
+	}
+
+	}
+
+}
+function signup(){
+	var win = window.open("signup.html","_self");
+}
+</script>
+<body>
+<header id="header">
+	    <div id="ceil"></div>
+		<div id="logo">
+				<a href="main.html"><img src="media/logo/paldologo2.png" width ="300" height ="170"></a>		
+		</div>
+		
+		<table class="top_menu" style="width:100%;height:20px;text-align:center;padding:20px;background-color:#fffaf0;border-radius : 10px;">
+		<tr>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="main.html"><img src="media/logo/home.png" width="100"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="notice.html"><img src="media/logo/notice.png" width="100"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="map.html"><img src="media/logo/map.png" width="75" height="30"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="local.html"><img src="media/logo/region.png" width="100"></a></td>
+			</tr>
+		</table>
+	</header>	
+	<nav class="nav">
+&nbsp;
+</nav>
+		<section class ="section">
+		<h2 style="text-align:center;">로그인</h2>
+		<div id ="signupform" style="width:100%;height:100%;text-align:center;">
+		<table id="form" style ="margin-left:auto;margin-right:auto;width:40%;height:40px;padding:10px;border:2px solid;border-radius : 10px; ">
+		<tr>
+			<td>아이디</td>
+			<td> <input id="id" type="text" size="10"> </td>
+			<td rowspan="2"><button id="login" onclick="login()">로그인</button></td>
+		  
+		</tr>
+		<tr>
+	 	   <td>패스워드</td>
+		   <td><input id="pw" type="password" size="10"> </td>
+		 </tr>
+		
+		</table>
+		
+		<br><br>
+		
+		<p>아직 회원이 아니신가요?</p>
+		<button id="signup" onclick="signup()">회원가입</button>
+		</div>
+	</section>
+	<aside class ="aside"> 
+
+
+</aside>
+
+<footer>
+<br><br>
+<hr>
+<a href="main.html"><img src="media/logo/home.png" width="80"></a></footer>
+</body>
+</html>

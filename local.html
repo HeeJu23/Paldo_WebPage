@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>메인화면</title>
+
+
+<style>
+.header{
+width:100%; height:15%;
+}
+body{
+background-image: url(media/backgroundimg.png);
+background-size: 100% 100%;
+}
+.header{
+width:100%; height:20%;
+}
+
+.section{
+width:100%;height:70%;margin-top:20px;float:left;background:white; text-align:center;
+border-radius : 20px;
+}
+
+img{
+padding:10px;
+}
+footer{
+width:100%; hegiht : 15%; clear : both; text-align : center; 
+}
+#logo{
+text-align: center;
+padding : 20px;
+}
+.local{margin: 5px;border:#fff2px solid;}
+.local:hover{border:#fac26e 5px solid; border-radius:10px;}
+
+</style>
+</head>
+<body>
+<header id="header">
+	    <div id="ceil"></div>
+		<div id="logo">
+				<a href="main.html"><img src="media/logo/paldologo2.png" width ="300" height ="170"></a>		
+		</div>
+		
+		<table class="top_menu" style="width:100%;height:20px;text-align:center;padding:20px;background-color:#fffaf0;border-radius : 10px;">
+			<tr>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="main.html"><img src="media/logo/home.png" width="100"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="notice.html"><img src="media/logo/notice.png" width="100"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="map.html"><img src="media/logo/map.png" width="75" height="30"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="local.html"><img src="media/logo/region.png" width="100"></a></td>
+			</tr>
+		</table>
+	</header>	
+
+<section class ="section" >
+<a href="detail_gwd.html"><img  class ="local"src="media/강원도.png" width="90"></a>
+<a href="detail_ggd.html"><img  class ="local"src="media/경기도.png" width="100"></a>
+<a href="detail_ccnd.html"><img class ="local"src="media/충청남도.png" width="100"></a>
+<a href="detail_ccbd.html"><img class ="local"src="media/충청북도.png" width="100"></a>
+<a href="detail_jrnd.html"><img class ="local"src="media/전라남도.png" width="100"></a>
+<a href="detail_jrbd.html"><img class ="local" src="media/전라북도.png" width="100 "height ="38"></a>
+<a href="detail_gsnd.html"><img class ="local"src="media/경상남도.png" width="100"></a>
+<a href="detail_gsbd.html"><img class ="local" src="media/경상북도.png" width="100"></a>
+<a href="detail_jjd.html"><img  class ="local"src="media/제주도.png" width="100"></a>
+
+</section>
+
+
+<footer>
+<br><br>
+<hr>
+<a href="main.html"><img src="media/logo/home.png" width="80"></a></footer>
+</body>
+</html>

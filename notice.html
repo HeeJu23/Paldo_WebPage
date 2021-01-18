@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>notice</title>
+
+<style>
+body{
+background-image: url(media/backgroundimg.png);
+background-size: 100% 100%;
+}
+.header{
+width:100%; height:20%;
+}
+.nav{
+width:15%;height:70%;float:left;
+}
+.section{
+width:65%;height:70%;margin-top:20px;float:left;background:white;
+border-radius : 20px;
+}
+.aside{
+	width:15%;height:70%;margin-top:20px; margin-left:20px; float:left;background:white;
+	border-radius : 20px;
+}
+img{
+padding:10px;
+}
+footer{
+width:100%; hegiht : 15%; clear : both; text-align : center; 
+}
+#logo{
+text-align: center;
+padding : 20px;
+}
+
+</style>
+</head>
+<body>
+<header id="header">
+	    <div id="ceil"></div>
+		<div id="logo">
+				<a href="main.html"><img src="media/logo/paldologo2.png" width ="300" height ="170"></a>	
+		</div>
+		
+		<table class="top_menu" style="width:100%;height:20px;text-align:center;padding:20px;background-color:#fffaf0;border-radius : 10px;">
+			<tr>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="main.html"><img src="media/logo/home.png" width="100"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="notice.html"><img src="media/logo/notice.png" width="100"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="map.html"><img src="media/logo/map.png" width="75" height="30"></a></td>
+				<td onmouseover="this.style.backgroundColor='#fac26e'" onmouseout="this.style.backgroundColor=''"><a href="local.html"><img src="media/logo/region.png" width="100"></a></td>
+			</tr>
+		</table>
+	</header>	
+<nav class="nav">
+&nbsp;
+</nav>
+<section class ="section">
+<table style="text-align:center;padding:40px; font-size:18px ;font-size : 13px; width:100% ; height:100%">
+
+
+    <tr>
+        <th scope="cols">번호</th>
+        <th scope="cols">제목</th>
+        <th scope="cols">게시일</th>
+        <th scope="cols">작성자</th>
+        <th scope="cols">공지내용</th>
+    </tr>
+
+    <tbody>
+    <tr onmouseover="this.style.background='#c9daf5'" onmouseout="this.style.background=''">
+        <th scope="row">1</th>
+        <td align="center">홈페이지 정상화</td>
+        <td align="center">2020.06.24</td>
+        <td align="center">XXX</td>
+        <td colspan="3">오류가 수정되었습니다.</td>
+    </tr>
+    <tr onmouseover="this.style.background='#c9daf5'" onmouseout="this.style.background=''">
+        <th scope="row" class="even">2</th>
+        <td class="even" align="center">업데이트 완료</td>
+        <td class="even" align="center">2020.06.23</td>
+        <td class="even" align="center">YYY</td>
+        <td colspan="3">특산물 정보가 업데이트 완료되었습니다.</td>
+    </tr>
+    <tr onmouseover="this.style.background='#c9daf5'" onmouseout="this.style.background=''">
+        <th scope="row">3</th>
+        <td align="center">홈페이지 오픈</td>
+        <td align="center">2020.06.22</td>
+        <td align="center">ZZZ</td>
+        <td colspan="3">홈페이지가 오픈헀습니다.</td>
+    </tr>
+    
+    </tbody>
+</table>
+</section>
+<footer>
+<br><br>
+<hr>
+<a href="main.html"><img src="media/logo/home.png" width="80"></a></footer>
+</body>
+</html>
