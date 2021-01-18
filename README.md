@@ -37,7 +37,7 @@
 ---
 
 ## 사용법
-✔[Youtube URL](https://youtu.be/PqijLqAbicc)
+[Youtube URL](https://youtu.be/PqijLqAbicc)✅
 
 ## 발전방향
 1. 회원가입을 완료한 회원을 위한 서비스를 추가할 예정입니다.
