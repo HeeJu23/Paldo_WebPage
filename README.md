@@ -15,11 +15,17 @@
 
 ## 세부 페이지 소개
 1. 지역 페이지
+
 ![region](https://user-images.githubusercontent.com/77602511/104899797-a6153c80-59be-11eb-9700-0ced66980672.png)
 
 2. 지역 세부 페이지
+
 ![regiondetail](https://user-images.githubusercontent.com/77602511/104900179-1de36700-59bf-11eb-9024-cad6d48e4e38.png)
 ![regiondetail](https://user-images.githubusercontent.com/77602511/104900498-761a6900-59bf-11eb-80b9-9902d7ca8d23.png)
+
+3. 지도 페이지
+
+![map](https://user-images.githubusercontent.com/77602511/104900750-c8f42080-59bf-11eb-88e5-1b29c015b72e.png)
 
 
 ## 사용법
