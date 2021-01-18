@@ -15,18 +15,22 @@
 
 ## 세부 페이지 소개
 1. 지역 페이지
+
 방문하고자 하는 페이지의 지역 로고를 클릭합니다.
 
 ![region](https://user-images.githubusercontent.com/77602511/104899797-a6153c80-59be-11eb-9700-0ced66980672.png)
 ---
 2. 지역 세부 페이지
+
 지역의 특산물을 볼 수 있습니다. 
+
 특산물의 구매를 원하는 경우 구매링크를 클릭해 이동합니다.
 
 ![regiondetail](https://user-images.githubusercontent.com/77602511/104900179-1de36700-59bf-11eb-9024-cad6d48e4e38.png)
 ![regiondetail](https://user-images.githubusercontent.com/77602511/104900498-761a6900-59bf-11eb-80b9-9902d7ca8d23.png)
 ---
 3. 지도 페이지
+
 전국 지도를 보며 각 지역의 위치를 한눈에 볼 수 있습니다.
 
 ![map](https://user-images.githubusercontent.com/77602511/104900750-c8f42080-59bf-11eb-88e5-1b29c015b72e.png)
