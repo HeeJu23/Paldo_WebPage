@@ -13,6 +13,10 @@
 + CSS
 + JavaScript
 
+## 세부 페이지 소개
+![region](https://user-images.githubusercontent.com/77602511/104899415-28513100-59be-11eb-8585-2cd1d7846344.png)
+
+
 ## 사용법
 [Youtube URL](https://youtu.be/PqijLqAbicc)
 
