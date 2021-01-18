@@ -19,6 +19,8 @@
 
 2. 지역 세부 페이지
 ![regiondetail](https://user-images.githubusercontent.com/77602511/104900179-1de36700-59bf-11eb-9024-cad6d48e4e38.png)
+![regiondetail](https://user-images.githubusercontent.com/77602511/104900498-761a6900-59bf-11eb-80b9-9902d7ca8d23.png)
+
 
 ## 사용법
 [Youtube URL](https://youtu.be/PqijLqAbicc)
