@@ -12,7 +12,7 @@
 
 ## 페이지별 소개
 1. main
-[main](https://user-images.githubusercontent.com/77602511/104888134-a78b3880-59af-11eb-89d0-da71bab9327f.jpg)
+![main](https://user-images.githubusercontent.com/77602511/104888134-a78b3880-59af-11eb-89d0-da71bab9327f.jpg)
 2. region
 
 3. map
