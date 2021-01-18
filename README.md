@@ -10,20 +10,6 @@
 + CSS
 + JavaScript
 
-## 페이지별 소개
-1. main
-
-![image](https://user-images.githubusercontent.com/77602511/104889242-419fb080-59b1-11eb-82c7-d50cd470c9b8.png)
-
-2. region
-
-![image](https://user-images.githubusercontent.com/77602511/104889342-6bf16e00-59b1-11eb-991d-a6a73d8ef74c.png)
-![image](https://user-images.githubusercontent.com/77602511/104889371-7875c680-59b1-11eb-8092-033095330a62.png)
-![image](https://user-images.githubusercontent.com/77602511/104889411-89bed300-59b1-11eb-9549-9e95cf2e9cd6.png)
-
-3. map
-
-
 ## 사용법
 [Youtube](https://youtu.be/PqijLqAbicc)
 
