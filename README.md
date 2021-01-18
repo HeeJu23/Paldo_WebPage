@@ -14,8 +14,11 @@
 + JavaScript
 
 ## 세부 페이지 소개
+1. 지역 페이지
 ![region](https://user-images.githubusercontent.com/77602511/104899797-a6153c80-59be-11eb-9700-0ced66980672.png)
 
+2. 지역 세부 페이지
+![regiondetail](https://user-images.githubusercontent.com/77602511/104900179-1de36700-59bf-11eb-9024-cad6d48e4e38.png)
 
 ## 사용법
 [Youtube URL](https://youtu.be/PqijLqAbicc)
