@@ -1,4 +1,4 @@
-# 전국 팔도 🌄 
+# 🌄 전국 팔도
 ## 웹 페이지 소개
 '전국 팔도' 웹 페이지는 COVID-19로 인해 경제적인 피해를 입은 농가에게 도움이 되고자 제작되었습니다.
 1. 각 지역의 특산물을 소개합니다.
@@ -13,9 +13,13 @@
 ## 페이지별 소개
 1. main
 
-![main](https://user-images.githubusercontent.com/77602511/104888134-a78b3880-59af-11eb-89d0-da71bab9327f.jpg) { width=50% }
+![image](https://user-images.githubusercontent.com/77602511/104889242-419fb080-59b1-11eb-82c7-d50cd470c9b8.png)
 
 2. region
+
+![image](https://user-images.githubusercontent.com/77602511/104889342-6bf16e00-59b1-11eb-991d-a6a73d8ef74c.png)
+![image](https://user-images.githubusercontent.com/77602511/104889371-7875c680-59b1-11eb-8092-033095330a62.png)
+![image](https://user-images.githubusercontent.com/77602511/104889411-89bed300-59b1-11eb-9549-9e95cf2e9cd6.png)
 
 3. map
 
