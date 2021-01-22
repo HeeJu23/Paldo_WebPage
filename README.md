@@ -36,7 +36,7 @@
 ![map](https://user-images.githubusercontent.com/77602511/104900750-c8f42080-59bf-11eb-88e5-1b29c015b72e.png)
 ---
 
-## 사용법
+## 시연영상
 [Youtube url](https://youtu.be/PqijLqAbicc)
 
 ## 발전방향
